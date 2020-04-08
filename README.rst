@@ -27,7 +27,7 @@ function::
     >>> from shell import shell
     >>> ls = shell('ls')
     >>> for file in ls.output():
-    ...     print file
+    ...     print(file)
     'another.txt'
 
 If you need to extend the behavior, you can also use the ``Shell`` object::
